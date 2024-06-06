@@ -4,4 +4,4 @@ It has screens/pages like home page, about page, add-to-cart, single-product vie
 This template can be used as a starting point for developing a full-featured restaurant website.
 
 ## Demo
-Check out the live demo of the website: Restaurant Website Template
+Check out the live demo of the website: [Restaurant Website Template](https://abeep777.github.io/mitho-restaurant-web/)
