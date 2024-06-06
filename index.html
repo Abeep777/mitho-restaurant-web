@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mitho - Nepalese Restaurant & Bar in Birmingham, UK</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--Bootstrap CDN link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!--External CSS link-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="icon" href="images/logo-icon.png" />
+</head>
+
+<body>
+    <div class="page-container">
+        <nav class="navbar navbar-expand-lg navbar-light py-4 sticky-top">
+            <div class="container">
+                <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+                    <img src="images/logo.png" alt="site logo icon" />
+                </a>
+
+                <div class="order-lg-2 nav-btns">
+                    <a href="./cart.html">
+                        <button type="button" class="btn position-relative">
+                            <i class="fa fa-shopping-cart"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge"></span>
+                        </button>
+                    </a>
+                    <a href="./login.html">
+                        <button type="button" class="btn position-relative">
+                            <i class="fa fa-user-plus"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge"></span>
+                        </button>
+                    </a>
+                </div>
+
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase active" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase" href="./about.html">About Us</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase" href="./menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase" href="./reservation.html">Reservation</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase" href="./catering.html">Catering</a>
+                        </li>
+                        <li class="nav-item px-2 py-2 border-0">
+                            <a class="nav-link text-uppercase" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar -->
+
+        <!-- Hero section -->
+        <div id="hero" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#hero" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#hero" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#hero" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="images/dine.png" class="d-block w-100" alt="restaurant image" />
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/dine1.png" class="d-block w-100" alt="restaurant image" />
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/dine2.png" class="d-block w-100" alt="restaurant image" />
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#hero" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#hero" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- End of Hero section -->
+
+        <!-- services section -->
+        <section class="main-section">
+            <div class="container-fluid p-0">
+                <div class="row text-center pt-4">
+                    <h1>Our Services</h1>
+                </div>
+                <div class="row sc-purple mt-4">
+                    <div class="section-image p-0 col-md-8 wow fadeInLeft">
+                        <img src="images/restaurant.png" class="introImg" />
+                    </div>
+
+                    <div class="section-content col-md-4 wow fadeInRight">
+                        <h2 class="section-title text-center">Restaurant</h2>
+                        <div class="divider dark mb-4">
+                            <div class="icon-wrap">
+                                <i class="fa fa-utensils"></i>
+                            </div>
+                        </div>
+                        <p class="p-2">
+                            Mitho restaurant is a classy and elegant Nepalese restaurant established in 1984. Our
+                            culinary philosophy is deceptively simple. We celebrate the very best of Nepalese food.
+                            Mitho cuisine is an extraordinary combination of flavours, delicate seasonings, in- house
+                            freshly ground spices, marinades, and complex tastes. We use only fresh and locally sourced
+                            ingredients.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid p-0">
+                <div class="row sc-green">
+                    <div class="section-content col-md-4 wow fadeInLeft">
+                        <h2 class="section-title text-center">Live Music & Bar</h2>
+                        <div class="divider dark mb-4">
+                            <div class="icon-wrap">
+                                <i class="fa fa-glass-cheers"></i>
+                            </div>
+                        </div>
+                        <p class="p-2">
+                            Come and relax in one of our plush armchairs and sample our signature cocktails, or enjoy
+                            our nice collection of wines and beers at the Mitho's Bar. Our passionate bar team can
+                            create a cocktail of your choice, or you may choose from the vast selection of classic
+                            cocktails on the menu.<br />
+                            Enjoy a crisp glass of Champagne or take advantage of our large selection of spirits that
+                            take pride of place.
+                        </p>
+                    </div>
+                    <div class="section-image p-0 col-md-8 wow fadeInRight">
+                        <img src="images/livebar.png" class="introImg" />
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid p-0">
+                <div class="row sc-purple">
+                    <div class="section-image p-0 col-md-8 wow fadeInLeft">
+                        <img src="images/cafe.jpg" class="introImg" />
+                    </div>
+
+                    <div class="section-content col-md-4 wow fadeInRight">
+                        <h2 class="section-title text-center">Cafe</h2>
+                        <div class="divider dark mb-4">
+                            <div class="icon-wrap">
+                                <i class="fa fa-utensils"></i>
+                            </div>
+                        </div>
+                        <p class="p-2">
+                            A TRENDY, INDEPENDENT CAFÉ IN THE CITY CENTRE <br />
+                            Whether you’re stopping by for a quick espresso or a refreshing cold brew - our coffee shop
+                            offers Birmingham’s coffee lovers a casual setting to fulfil caffeine cravings.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of service section -->
+
+        <!-- notice section -->
+        <section class="notice-board-wrapper">
+            <div class="row text-center p-4">
+                <h1 class="m-0">Opening Hours</h1>
+            </div>
+            <div class="container-fluid light notice-board-wrap">
+                <div class="notice-board">
+                    <div class="content text-center heading">
+                        <h2 class="section-title"><strong>Time </strong>open at</h2>
+                        <div class="divider">
+                            <div class="icon-wrap">
+                                <i class="fa fa-utensils"></i>
+                            </div>
+                        </div>
+                        <div class="row notice">
+                            <ul class="list-unstyled coloured-light col-md-6">
+                                <li><strong>Tuesday-Friday</strong></li>
+                                <li>7am - 11am(Breakfast)</li>
+                                <li>11am - 10pm(Lunch/Dinner)</li>
+                            </ul>
+                            <ul class="list-unstyled coloured-light col-md-6">
+                                <li><strong>Saturday-Sunday</strong></li>
+                                <li>7am - 11am(Breakfast)</li>
+                                <li>11am - 10pm(Lunch/Dinner)</li>
+                            </ul>
+                        </div>
+
+                        <div class="row coloured-light">
+                            <span><strong>Monday- Closed</strong></span>
+                        </div>
+                        <div class="contact-info">
+                            <span>+44 1234567890</span>
+                            <a href="./reservation.html"
+                                class="btn btn-pill btn-outline-light light hvr-sweep-to-right">Book Your Table</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of notice section -->
+
+        <!-- Featured Dishes Slides -->
+        <section class="text-center featured-food-wrap heading mb-5">
+            <div class="container">
+
+                <h2 class="section-title">featured dishes</h2>
+
+                <div class="row box-wrap">
+
+                    <div class="col-md-4 box pb-5">
+                        <figure>
+                            <a href="single-product.html">
+                                <img src="images/momo.png">
+                            </a>
+                        </figure>
+                        <div class="text-content text-align ">
+                            <div class="category">
+                                <a href="">Snacks</a>
+                            </div>
+                            <div class="content">
+                                <h3><a href="single-product.html"> MOMO platter</a></h3>
+                                <p>Momo is a dumpling made of all-purpose flour and filled with either meat or
+                                    vegetables. Inspired by Tibetan dumplings, the dish is a very popular Nepali street
+                                    food</p>
+                            </div>
+                            <span class="price-tags">$12</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 box pb-5">
+                        <figure>
+                            <a href="single-product.html">
+                                <img src="images/thakali.png">
+                            </a>
+                        </figure>
+                        <div class="text-content text-align ">
+                            <div class="category">
+                                <a href="">Lunch/Dinner </a>
+                            </div>
+                            <div class="content">
+                                <h3><a href="single-product.html">Nepali Thakali Khana set </a></h3>
+                                <p>A typical serving of Thakali plate would see Dal,Bhaat,Tarkari and Meat
+                                    (Lentilsoup,rice,green vegetables) along with Kanchhemba(buckwheat finger chips)the
+                                    Mustang alu topped with Jimbu(Himalayan leaf garlic)and a generous dollop of Ghee
+                                    (clarified Butter) </p>
+                            </div>
+                            <span class="price-tags">$12</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 box pb-5">
+                        <figure>
+                            <a href="single-product.html">
+                                <img src="images/chicken-thali.png">
+                            </a>
+                        </figure>
+                        <div class="text-content text-align ">
+                            <div class="category">
+                                <a href="">Lunch/Dinner</a>
+                            </div>
+                            <div class="content">
+                                <h3><a href="single-product.html">Chicken Thali</a></h3>
+                                <p>Typical Nepali food served with Chicken meat,Daal,Rice,tomato pickle and green
+                                    vegetables.</p>
+                            </div>
+                            <span class="price-tags">$12</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 box pb-5">
+                        <figure>
+                            <a href="single-product.html">
+                                <img src="images/nepali-food-dheedo.png">
+                            </a>
+                        </figure>
+                        <div class="text-content text-align ">
+                            <div class="category">
+                                <a href="single-product.html">Lunch/Dinner</a>
+                            </div>
+                            <div class="content">
+                                <h3><a href="#">Nepali Dhido and Gundruk</a></h3>
+                                <p>Dhido is a type of porridge made from grains such as corn, millet, or wheat served
+                                    with gundruk(fermented leafy vegetable),Pickle,Meat(chicken/Mutton/Pork),Green
+                                    vegetable and salad.</p>
+                            </div>
+                            <span class="price-tags">$12</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 box pb-5">
+                        <figure>
+                            <a href="single-product.html">
+                                <img src="images/khaja-set.png">
+                            </a>
+                        </figure>
+                        <div class="text-content text-align ">
+                            <div class="category">
+                                <a href="single-product.html">Snacks</a>
+                            </div>
+                            <div class="content">
+                                <h3><a href="single-product.html">Newari khaja-set</a></h3>
+                                <p>Set consists of barbecued lamb meat, eggs along with beaten rice and spaicy potato
+                                    salad</p>
+                            </div>
+                            <span class="price-tags">$12</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 box pb-5">
+                        <figure>
+                            <a href="single-product.html">
+                                <img src="images/chicken-tikka-masala.png">
+                            </a>
+                        </figure>
+                        <div class="text-content text-align ">
+                            <div class="category">
+                                <a href="">Lunch/Dinner</a>
+                            </div>
+                            <div class="content">
+                                <h3><a href="single-product.html">Chicken Tikka-Masala</a></h3>
+                                <p>Dish consisting of roasted marinated chicken chunks in a spiced sauce served with
+                                    Rice or Nan Roti</p>
+                            </div>
+                            <span class="price-tags">$12</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- End of Featured Dishes Slides -->
+
+        <!-- Testimonial section -->
+        <section class="section-testimonial">
+
+            <h1 class="wow fadeInLeft">What People Say</h1>
+            <div class="testimonial">
+                <div class="wrapper">
+                    <div class="testimonial-container" id="testimonial-container"></div>
+                    <button id="prev">&lt;</button>
+                    <button id="next">&gt;</button>
+                </div>
+            </div>
+        </section>
+        <!-- End of Testimonial section -->
+
+        <!-- Our Image gallery section -->
+        <section class="gallery-container text-center mb-5">
+            <h2 class="section-title mb-5 wow fadeInLeft">our gallery</h2>
+            <div class="gallery">
+                <img src="images/food.png" alt="food">
+                <img src="images/platter.png" alt="food">
+                <img src="images/veg-thali.png" alt="food">
+                <img src="images/food1.png" alt="food">
+                <img src="images/food4.png" alt="food">
+                <img src="images/momo-platter-veg.png" alt="food">
+                <img src="images/Mocha-coffee.png" alt="food">
+                <img src="images/cook.png" alt="food">
+                <img src="images/cook1.png" alt="food">
+                <img src="images/food2.png" alt="food">
+                <img src="images/food3.png" alt="food">
+                <img src="images/food5.png" alt="food">
+                <img src="images/food6.png" alt="food">
+                <img src="images/food7.png" alt="food">
+            </div>
+        </section>
+        <!-- End of Our Image gallery section -->
+
+        <!---Start footer section--->
+        <footer class="mt-5 py-3">
+            <div class="row container mx-auto pt-5">
+                <div class="footer-one col-lg-4 col-md-6 col-12">
+                    <img src="images/logo.png" alt="" width="100px" height="50px">
+                    <p class="pt-3">This company intriduced in 2000 and providing exquisite and valuable products for
+                        customer. Our main aim is to satisfation of customer so they can come again and agian.</p>
+                </div>
+                <div class="footer-one col-lg-4 col-md-6 col-12 mb-3">
+                    <h5 class="pb-2">Quick Links</h5>
+                    <ul class="text-uppercase list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="reservation.html">Reservation</a></li>
+                        <li><a href="catering.html">Catering</a></li>
+                    </ul>
+                </div>
+                <div class="footer-one col-md-6 col-lg-4">
+                    <h5 class="fw-light mb-3">Contact Us</h5>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </span>
+                        <span class="fw-light">
+                            Moor Street, Birmingham, B5 0AQ, United Kingdom
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span class="fw-light">
+                            info@mitho.com
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-phone-alt"></i>
+                        </span>
+                        <span class="fw-light">
+                            +44123456789
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright mt-5">
+                <div class="row container mx-auto">
+
+                    <div class="col-lg-3 col-md-6 col-12 mb-4">
+                        <img src="images/payment.png" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12  text-nowrap mb-2">
+                        <p>Mitho Restaurant @ 2023. All Rights Reserved</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://uk.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+        <!---End footer section--->
+
+        <!-- Back to top button -->
+        <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <!--Bootstrap JS CDN link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- External js link -->
+    <script src="js/script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        // Initialize wow js for animation
+        new WOW().init();
+
+        //Get the button
+        let mybutton = document.getElementById("btn-back-to-top");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 20 ||
+                document.documentElement.scrollTop > 20
+            ) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        mybutton.addEventListener("click", backToTop);
+
+        function backToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
